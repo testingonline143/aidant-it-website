@@ -1,0 +1,77 @@
+/* Mobile-first responsive layer for Aidant IT */
+@media (max-width: 700px){
+  html,body{width:100%;max-width:100%;overflow-x:hidden;}
+  .wrap{width:100%;max-width:none;margin:0;padding-left:20px;padding-right:20px;}
+  header{height:68px;padding:0 20px;}
+  .logo{font-size:16px;}
+  .menu-btn{padding:8px 0;gap:10px;}
+  .bars span{width:22px;}
+
+  .hero{width:100%;min-height:100svh;height:100svh;overflow:hidden;}
+  .hslide{width:100%;min-height:100%;height:100%;padding:0;}
+  .hslide-inner{width:100%;max-width:none;min-height:100%;padding:96px 20px 72px;justify-content:center;}
+  .hero-index{margin-bottom:22px;font-size:9px;}
+  .hero h1,.hslide h1{font-size:clamp(40px,11.5vw,58px);line-height:1.02;max-width:100%;letter-spacing:-.035em;}
+  .lede,.hslide p.lede{font-size:14px;line-height:1.6;max-width:100%;margin:20px 0 24px;}
+  .hero-ctas{display:grid;grid-template-columns:1fr;gap:10px;width:100%;}
+  .hero-ctas .btn{width:100%;min-height:50px;justify-content:space-between;padding:14px 17px;}
+  .hero-dots{left:20px;bottom:22px;}
+  .hero-status{display:none;}
+
+  .tech-visual{inset:12% -58% 0 22%;width:auto;height:65%;opacity:.34;}
+  .cloud-core,.shield-core,.ai-core{left:50%;top:48%;width:118px;height:118px;}
+  .cloud-core b,.shield-core b,.ai-core b{font-size:29px;}
+  .cloud-core span,.shield-core span,.ai-core span{font-size:7px;}
+  .data-orbit,.orbit-one{width:260px;height:130px;}
+  .orbit-two{width:340px;height:175px;}
+  .ring-one{width:230px;height:230px;}
+  .ring-two{width:340px;height:340px;}
+
+  section,.section-alt{padding:64px 0;}
+  .reva{padding:58px 0;}
+  .reva-grid,.why-grid,.head-row,.page-hero-grid,.content-block{grid-template-columns:1fr;gap:32px;}
+  .reva h2,.why-grid h2{font-size:31px;line-height:1.08;}
+  .reva p,.why-grid p{font-size:14px;line-height:1.65;}
+  .reva-ctas{display:grid;grid-template-columns:1fr;gap:10px;}
+  .reva-ctas .btn{width:100%;justify-content:space-between;}
+  .reva-partners-label{font-size:9px;line-height:1.5;}
+  .reva-partners-label span{display:block;margin:5px 0 0;font-size:8px;}
+  .partner-track{gap:38px;animation-duration:20s;}
+  .partner-track span{font-size:12px;padding-left:18px;padding-right:18px;}
+
+  .head-row{display:block;padding:0;margin-bottom:30px;}
+  .head-row h2{font-size:31px;line-height:1.08;max-width:100%;}
+  .head-row p{font-size:14px;line-height:1.6;max-width:100%;margin-top:18px;}
+  .grid-3,.solutions-grid,.industry-grid,.content-cards{grid-template-columns:1fr;width:100%;}
+  .cell{padding:28px 20px;min-height:150px;border-right:0;}
+  .cell h4{margin-top:30px;font-size:23px;}
+  .solution,.industry-card,.content-card{padding:26px 20px;min-height:185px;}
+  .solution h3,.industry-card h3,.content-card h3{font-size:23px;}
+  .work-grid{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr;gap:32px;}
+  .belief{grid-template-columns:26px 1fr;gap:10px;padding:18px 0;}
+  .belief p{font-size:13px;}
+  .page-hero{padding:108px 0 58px;}
+  .page-hero h1{font-size:clamp(40px,12vw,58px);}
+  .page-lede{font-size:15px;line-height:1.65;}
+  .content-block{padding:48px 0;}
+  .content-heading h2{font-size:29px;}
+  .section-copy{font-size:14px;line-height:1.7;}
+  .feature-list{grid-template-columns:1fr;}
+  .page-final-cta{display:block;padding:30px 20px;}
+  .page-final-cta h2{font-size:30px;}
+  .page-final-cta .btn{margin-top:24px;width:100%;justify-content:space-between;}
+  .panel{width:100%;max-width:100%;}
+  .panel-head{padding:20px;}
+  .nav-head{padding:17px 20px;}
+  .sub-list{padding:2px 20px 18px;}
+  .panel-foot{padding:20px;}
+}
+@media (max-width:380px){
+  .wrap,.hslide-inner{padding-left:16px;padding-right:16px;}
+  header{padding-left:16px;padding-right:16px;}
+  .hslide h1{font-size:37px;}
+  .hslide p.lede{font-size:13px;}
+  .tech-visual{right:-72%;opacity:.27;}
+}
+@media (prefers-reduced-motion:reduce){.partner-track{animation:none!important;}}
