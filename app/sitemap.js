@@ -1,0 +1,3 @@
+import {siteUrl} from "./seoData";
+const routes=["/","/solutions/ai-automation/reva","/solutions/cloud-infrastructure","/solutions/cybersecurity-resilience","/solutions/ai-automation","/solutions/it-strategy","/solutions/managed-it","/solutions/technology-talent","/industries/ai-first","/industries/manufacturing","/industries/healthcare","/resources/case-studies","/resources/insights","/resources/use-cases","/resources/white-papers","/about","/contact"];
+export default function sitemap(){return routes.map(path=>({url:`${siteUrl}${path}`,changeFrequency:path.startsWith("/resources/")?"weekly":"monthly",priority:path==="/"?1:path.startsWith("/solutions/")?.9:.7}))}
